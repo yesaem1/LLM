@@ -42,8 +42,8 @@ def get_credentials():
     load_dotenv()
 
     # Update the global variables that will be used for authentication in another function
-    globals()["api_key"] = os.getenv("api_key", "none")
-    globals()["watsonx_project_id"] = os.getenv("project_id", "none")
+    globals()["api_key"] = os.getenv("api_key", "cDZTTsUw5U9bXpq6b9N1XW6DCHqgN6y9GCZ1i9kUxEa5")
+    globals()["watsonx_project_id"] = os.getenv("project_id", "34beecd7-6863-4854-bf5e-bd4f020ee033")
 
     print("*** Got credentials***")
 
